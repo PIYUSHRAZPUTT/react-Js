@@ -1,0 +1,26 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+html,body{
+  background-color: #333;
+}
+h1{
+  margin: 10px;
+}
+button{
+  padding: 10px 15px;
+  font-weight: bold;
+  margin: 10px;
+  border-radius: 5px;
+  color: #333;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+button:hover{
+  border-color: rgb(230, 220, 135);
+}
