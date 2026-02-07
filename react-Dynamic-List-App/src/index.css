@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color:#fff;
+}
+input{
+  padding: 6px 10px;
+  margin: 5px 10px;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+}
+button{
+  padding: 8px 25px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  transition: border-color 0.4s ease;
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+}
+button:hover{
+  border-color: bisque;
+  cursor: pointer;
+  background-color: #cac3c3;
+}
