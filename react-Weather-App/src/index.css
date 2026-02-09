@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #333;
+  color: #ffffff;
+}
+
+.parent{
+  min-height: 100vh;
+  text-align:  center;
+  margin-top: 10em;
+}
+h1{
+  margin-bottom: 10px;
+}
+input{
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  color: #333;
+  background-color: #ffffff;
+}
+button{
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 8px 10px;
+   color: #333;
+  background-color: #ffffff;
+  margin-left: 10px;
+  border: 2px solid transparent;
+  transition:  all 0.5s ease;
+}
+button:hover{
+  border-color: rgb(227, 137, 20);
+  cursor: pointer;
+}
+.temp{
+  margin-top:10px;
+}
+.wind{
+  margin-top:10px;
+}
