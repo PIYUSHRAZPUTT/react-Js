@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+/* Main container */
+.parent {
+  position: relative;
+  left: 40%;
+  top: 100px;
+  background: rgb(21, 180, 161);
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 280px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Headline */
+.parent h1 {
+  background: rgb(21, 180, 161);
+  color: #333;
+}
+
+/* Input fields */
+.parent input {
+  font-size: 16px;
+  padding: 6px 10px;
+  width: 250px;
+  margin: 5px;
+  color: #333;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Button */
+.parent button {
+  font-size: 16px;
+  padding: 6px 10px;
+  width: 250px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  background-color: #ffffff;
+}
+
+/* Error message */
+.parent p {
+  color: red;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.parent h3{
+  color: green;
+}
