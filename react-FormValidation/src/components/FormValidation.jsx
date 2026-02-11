@@ -43,12 +43,12 @@ const FormValidation = () => {
       setSuccess("Login successfull !");
     }
   };
-//   // ✅ Check if form is valid (real-time validation)
-//   const isFormValid =
-//     email &&
-//     password.length >= 6 &&
-//     confirmPassword === password &&
-//     /\S+@\S+\.\S+/.test(email);
+  //   // ✅ Check if form is valid (real-time validation)
+  //   const isFormValid =
+  //     email &&
+  //     password.length >= 6 &&
+  //     confirmPassword === password &&
+  //     /\S+@\S+\.\S+/.test(email);
   return (
     <div className="parent">
       <h1>Form Validation</h1>
@@ -83,9 +83,7 @@ const FormValidation = () => {
           />
           {errors.confirmPassword && <p>{errors.confirmPassword}</p>}
         </div>
-        <button type="submit" >
-          Login
-        </button>
+        <button type="submit">Login</button>
       </form>
       {success && <h3>{success}</h3>}
     </div>
