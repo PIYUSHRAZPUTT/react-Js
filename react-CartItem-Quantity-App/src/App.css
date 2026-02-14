@@ -1,0 +1,21 @@
+.app-container {
+  text-align: center;
+  margin-top: 60px;
+  font-family: Arial, sans-serif;
+}
+
+.app-title {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.total-items {
+  font-size: 20px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+.total-price{
+   font-size: 20px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
