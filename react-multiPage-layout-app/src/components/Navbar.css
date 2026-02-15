@@ -1,0 +1,21 @@
+.navbar {
+    padding: 15px;
+    background: #eee;
+}
+
+.nav-link {
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 3px;
+    padding: 8px 12px;
+    color: black;
+}
+
+.nav-link:hover {
+    background-color: rgb(85, 210, 189);
+}
+
+.nav-link:focus{
+    background-color: rgb(218, 186, 150);
+}
